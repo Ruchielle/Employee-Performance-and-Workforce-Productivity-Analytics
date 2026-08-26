@@ -1,5 +1,20 @@
 ## Employee Performance and Workforce Productivity Analytics
 
+
+## Table of Content 
+ - [Projects Overview](#project-overview)
+ - [Project Objective](#project-objective)
+ - [Tools](#tools) 
+ - [Data Workflow](#data-workflow) 
+ - [Key Metrics](#key-metrics)
+ - [Data Cleaning and Transformation](#data-cleaning-and-transformation)
+ - [Exploratory Data Analysis](#eploratory-data-analysis)
+ - [Key Insights and Visuals](#key-insights-and-visuals)
+ - [Recommendations](#recommendation)
+ - [Assumptions](#assumptions)
+ - [Limitations](#limitations)
+ - [Author](#author)
+
 ### Project overview 
 
 The Employee Performance and Workforce Productivity Analytics Dashboard is a Power BI project developed to analyze employee performance, workforce productivity, compensation, attendance, and career progression.
@@ -330,21 +345,41 @@ The following analytical fields were created to support the dashboard:
 
 ### Assumptions
 
- - Performance Score: Values were classified using the established thresholds: Low (\le 2), Average (3), and High (\ge 4).
- - Job Levels: Grouped into Entry, Mid, and Senior categories (Levels 1, 2, and 3 respectively).
- - Years at Company: Grouped into 0\text{--}5, 6\text{--}10, 11\text{--}15, and 16\text{--}20 years.
- - Promotion Year: Derived directly from the Promotion Date.
- - Work Mode: The original Work Location field was renamed to Work Mode.
- - Scope: The analysis is descriptive and strictly reflects the information contained in the dataset. No additional assumptions were added where the project documentation did not establish them.
+ - Performance Score
+      - Values were classified using the established thresholds: Low (\le 2), Average (3), and High (\ge 4).
+ 
+ - Job Levels
+      - Grouped into Entry, Mid, and Senior categories (Levels 1, 2, and 3 respectively).
+ 
+ - Years at Company
+      - Grouped into 0\text{--}5, 6\text{--}10, 11\text{--}15, and 16\text{--}20 years.
+ 
+ - Promotion Year
+      - Derived directly from the Promotion Date.
+ 
+ - Work Mode
+      - The original Work Location field was renamed to Work Mode.
+ 
+ - Scope
+      - The analysis is descriptive and strictly reflects the information contained in the dataset. No additional assumptions were added where the project documentation did not establish them.
 
 
 ### Limitations
  
- - Dataset Scope: The analysis is based on 5,000 employee records and therefore reflects only the employees represented within this specific dataset.
- - Descriptive Analysis: The dashboard identifies patterns and relationships within the available employee data but does not establish causation (for example, differences in salary across work modes do not demonstrate that work mode causes differences in salary).
- - Limited Context: While the dataset covers performance, salary, attendance, promotions, demographics, and employment info, other broader organizational factors that may influence employee outcomes were not included.
- - Promotion Analysis: Promotion patterns are based strictly on the recorded promotion information available in the dataset.
- - Missing Data Documentation: The exact number of missing values, duplicate records, and specific missing-value treatments were not retained in the available project documentation, which should be verified directly from the final Power BI model if needed.
+ - Dataset Scope
+      - The analysis is based on 5,000 employee records and therefore reflects only the employees represented within this specific dataset.
+ 
+ - Descriptive Analysis
+      - The dashboard identifies patterns and relationships within the available employee data but does not establish causation (for example, differences in salary across work modes do not demonstrate that work mode causes differences in salary).
+ 
+ - Limited Context
+      - While the dataset covers performance, salary, attendance, promotions, demographics, and employment info, other broader organizational factors that may influence employee outcomes were not included.
+ 
+ - Promotion Analysis
+      - Promotion patterns are based strictly on the recorded promotion information available in the dataset.
+ 
+ - Missing Data Documentation
+      - The exact number of missing values, duplicate records, and specific missing-value treatments were not retained in the available project documentation, which should be verified directly from the final Power BI model if needed.
 
 
 
