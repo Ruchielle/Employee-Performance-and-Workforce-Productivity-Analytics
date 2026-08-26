@@ -48,12 +48,12 @@ Used for:
 
 Used for:
 
-    - Creating analytical measures
-    - Calculating employee and promotion metrics
-    - Calculating promotion rate
-    - Calculating average salary
-    - Calculating average performance
-    - Creating analytical categories and groups
+   - Creating analytical measures
+   - Calculating employee and promotion metrics
+   - Calculating promotion rate
+   - Calculating average salary
+   - Calculating average performance
+   - Creating analytical categories and groups
 
 
 ### Data Workflow
