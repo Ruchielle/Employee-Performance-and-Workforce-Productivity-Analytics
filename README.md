@@ -176,3 +176,32 @@ The following analytical fields were created to support the dashboard:
  
      - Promotion Year: Extracts the year from Promotion Date to support analysis of promotion trends over time.
 
+### Key Analytical Insights
+ - Absence by Work Mode
+    - Hybrid employees had the highest average absence at 7.64 days.
+    - Remote employees followed closely at 7.63 days.
+    - In-Office employees had the lowest average at 7.30 days.
+    - Insight: The difference is small, meaning work mode does not appear to have a strong relationship with absence in this dataset.
+
+ - Absence vs. Performance
+    - High-performing employees averaged 7.56 absence days.
+    - Average performers averaged 7.52 absence days.
+    - Low performers averaged 7.48 absence days.
+    - Insight: This suggests that absence and performance have almost no relationship in this dataset.
+ 
+ - Absence by Gender
+     - Average absence across gender groups:
+     - Female: 7.57 days
+     - Male: 7.54 days
+     - Non-binary: 7.45 days
+     - Insight: The differences are very small and do not indicate a meaningful gap between the groups.
+ 
+ - Promotion Trend
+      - Promotion activity remained fairly stable from 2020 to 2024, with approximately 950–1,000 promotions each year.
+      - The 2025 value was much lower, but this is because 2025 represents a partial year in the dataset and should not be treated as evidence of a decline.
+ 
+ - Absence by Department
+      - Marketing recorded the highest average absence at 7.57 days.
+      - HR recorded the lowest average absence at 7.41 days.
+      - Insight: The difference is small, showing that absence is generally consistent across departments.
+
