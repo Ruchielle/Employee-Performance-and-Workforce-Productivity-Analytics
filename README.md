@@ -177,6 +177,7 @@ The following analytical fields were created to support the dashboard:
      - Promotion Year: Extracts the year from Promotion Date to support analysis of promotion trends over time.
 
 ### Key Analytical Insights
+ 
  - Absence by Work Mode
     - Hybrid employees had the highest average absence at 7.64 days.
     - Remote employees followed closely at 7.63 days.
@@ -198,10 +199,74 @@ The following analytical fields were created to support the dashboard:
  
  - Promotion Trend
       - Promotion activity remained fairly stable from 2020 to 2024, with approximately 950–1,000 promotions each year.
-      - The 2025 value was much lower, but this is because 2025 represents a partial year in the dataset and should not be treated as evidence of a decline.
- 
+      - The 2025 value was much lower because the data stops in February 2025. Therefore, this drop should not be treated as evidence of a decline in promotions.
+
  - Absence by Department
       - Marketing recorded the highest average absence at 7.57 days.
       - HR recorded the lowest average absence at 7.41 days.
       - Insight: The difference is small, showing that absence is generally consistent across departments.
 
+ - Workforce by Performance Category
+     - High Performance: 2,000 employees
+     - Low Performance: 2,000 employees
+     - Average Performance: 1,000 employees
+     - Insight: This shows a highly divided performance distribution, with more employees at the High and Low ends than in the Average category. This may be worth reviewing to determine whether managers are using the full performance rating scale consistently.
+
+ - Performance by Gender
+     - Average performance scores were almost identical across groups:
+     - Male: 3.01
+     - Non-binary: 3.01
+     - Female: 3.00
+     - Insight: There is no meaningful performance difference between the groups in this dataset.
+ 
+ - Promotions by Years at Company
+     - Employees with 6–10 years and 16–20 years at the company recorded the highest number of promotions.
+     - Insight: However, the differences between tenure groups were relatively small, suggesting that years at the company alone is not the main factor determining promotion.
+ 
+ - Performance by Department
+      - The highest-performing departments were:
+      - Sales: 3.03
+      - Engineering: 3.03
+      - HR: 3.02
+      - Marketing: Recorded the lowest average performance score at 2.95.
+      - Insight: This could encourage HR to investigate whether Marketing needs additional training, workload adjustments, or management support.
+
+ - Salary vs. Performance
+      - One of the most important findings was that average salary remained almost the same across High, Average, and Low performance categories, with all three groups averaging approximately $6.0K.
+      - Insight: This suggests that employee performance is not strongly reflected in salary levels and may indicate an opportunity for HR to review the organization's compensation structure.
+
+ - Performance by Job Level
+      - Average performance across seniority levels:
+      - Entry Level: 3.05
+      - Mid Level: 3.02
+      - Senior Level: 2.95
+      - Insight: Performance therefore did not increase with seniority in this dataset.
+
+
+ - Job Level Mix by Department
+      - This visual was used to examine the distribution of Entry, Mid, and Senior employees across departments.
+      - Engineering showed a relatively smaller Senior-level workforce compared with their Entry-level workforce.
+      - Insight: This may create a potential succession planning concern because fewer senior employees may be available to take over leadership responsibilities when experienced employees leave.
+ 
+ - Absence by Age Group
+      - Employees aged 30–39 recorded the lowest average absence at 7.45 days.
+      - Employees aged 50+ recorded the highest at 7.60 days.
+      - Insight: The difference is small, so age does not appear to have a strong relationship with absence in this dataset.
+
+ - Performance by Age Group
+      - Average performance remained almost the same across all age groups:
+      - 20–29: 3.02
+      - 30–39: 3.01
+      - 40–49: 3.01
+      - 50+: 2.99
+      - Insight: This suggests that employee performance is not strongly dependent on age in this dataset.
+ 
+ - Salary by Age Group
+      - Average salary was approximately $6.0K across most age groups.
+      - The 40–49 group had a slightly lower average salary of $5.9K.
+      - Insight: Overall, there was no clear increase in salary based on age.
+
+ - Recent Promotions by Age Group
+      - Instead of using lifetime promotions, the analysis was refined to focus on promotions in 2024, the most recent complete year in the dataset.
+      - The 50+ age group recorded the highest number of promotions with 294, while the 20–29 group recorded the lowest with 195.
+      - Insight: This provided a more meaningful comparison than simply counting all employees with a promotion date.
