@@ -59,7 +59,7 @@ Used for:
 ### Data Workflow
 
  - Source 
-This project is built using an employee performance dataset sourced from Kaggle, containing 5,000 employee records and 11 columns. The dataset provides a comprehensive look into workforce dynamics, covering key areas such as demographics, compensation, performance, promotions, attendance, and work arrangements.
+     - This project is built using an employee performance dataset sourced from Kaggle, containing 5,000 employee records and 11 columns. The dataset provides a comprehensive look into workforce dynamics, covering key areas such as demographics, compensation, performance, promotions, attendance, and work arrangements.
 
  - Dataset Fields
     
@@ -112,7 +112,7 @@ This project is built using an employee performance dataset sourced from Kaggle,
 
 ### Data Cleaning and Transformation
  - Column Review 
-The dataset was reviewed to understand the structure and relevance of each field before analysis.
+    - The dataset was reviewed to understand the structure and relevance of each field before analysis.
  
  - The original dataset contained 11 columns:
     - Employee ID,
@@ -143,7 +143,7 @@ The dataset was checked for duplicate entries to ensure data integrity.
  
  - Data Type Corrections
      - Data types were reviewed during the Power Query preparation process to ensure correct formatting.
-The project specifically required validation of fields such as:
+     - The project specifically required validation of fields such as:
  Promotion Date,
  Age,
  Salary,
