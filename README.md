@@ -48,9 +48,25 @@ Used for:
 
 Used for:
 
-   - Creating analytical measures
-   - Calculating employee and promotion metrics
-   - Calculating promotion rate
-   - Calculating average salary
-   - Calculating average performance
-   - Creating analytical categories and groups
+    - Creating analytical measures
+    - Calculating employee and promotion metrics
+    - Calculating promotion rate
+    - Calculating average salary
+    - Calculating average performance
+    - Creating analytical categories and groups
+
+
+### Data Workflow
+This project is built using an employee performance dataset sourced from Kaggle, containing 5,000 employee records and 11 columns. The dataset provides a comprehensive look into workforce dynamics, covering key areas such as demographics, compensation, performance, promotions, attendance, and work arrangements.
+Dataset Fields
+ - Employee ID: A unique identifier assigned to each employee.
+ - Age: The current age of the employee.
+ - Gender: The gender identity of the employee.
+ - Department: The organizational department the employee belongs to.
+ - Job Level: The employee's current role hierarchy or tier.
+ - Salary: The compensation or pay rate for the employee.
+ - Years at Company: The total duration of time the employee has spent with the organization.
+ - Performance Score: The evaluated metric representing the employee's work output and effectiveness.
+ - Promotion Date: The historical date associated with the employee's last promotion.
+ - Absence Days: The total number of days the employee was absent from work.
+ - Work Mode: The employee's designated work arrangement (e.g., remote, hybrid, or on-site).
