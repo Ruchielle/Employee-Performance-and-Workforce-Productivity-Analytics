@@ -96,10 +96,10 @@ This project is built using an employee performance dataset sourced from Kaggle,
       - The data was transformed to support workforce analysis by creating new groups and categories. I created age groups, performance categories, job-level categories, and years-at-company groups. I also extracted the promotion year from the promotion dates and renamed Work Location to Work Mode for clearer terminology. Specifically, performance scores were grouped into Low (Score ≤ 2), Average (Score = 3), and High (Score ≥ 4), job levels were grouped into Entry, Mid, and Senior, and years at the company were grouped into ranges from 0 to 20 years.
  
  - Analysis
-       - The analysis focused on exploring employee performance, compensation, attendance, promotions, and overall workforce characteristics. I looked closely at the distribution of performance, salary by performance category, performance across different work modes and departments, and employee absence patterns by department. I also examined promotion patterns by age group and year, along with workforce characteristics like age groups, job levels, tenure groups, and gender and department breakdowns.
+      - The analysis focused on exploring employee performance, compensation, attendance, promotions, and overall workforce characteristics. I looked closely at the distribution of performance, salary by performance category, performance across different work modes and departments, and employee absence patterns by department. I also examined promotion patterns by age group and year, along with workforce characteristics like age groups, job levels, tenure groups, and gender and department breakdowns.
 
  - Output
-       - The final output was an interactive Power BI dashboard consisting of three pages. The first page was an Attendance Overview focusing on absence patterns, the second was a Performance and Pay Overview focusing on performance, salary, departments, and work modes, and the third was an Demographics and Career Growth page focusing on age groups, promotions, and career progression. The dashboard also includes interactive filters for gender, department, and work mode.
+      - The final output was an interactive Power BI dashboard consisting of three pages. The first page was an Attendance Overview focusing on absence patterns, the second was a Performance and Pay Overview focusing on performance, salary, departments, and work modes, and the third was an Demographics and Career Growth page focusing on age groups, promotions, and career progression. The dashboard also includes interactive filters for gender, department, and work mode.
 
 
 ### Key Metrics
@@ -158,19 +158,19 @@ The project specifically required validation of fields such as:
 The following analytical fields were created to support the dashboard:
  
      - Performance Category: Classifies employees based on Performance Score:
-           - Low: ≤ 2
-           - Average: 3
-           - High: ≥ 4
+          - Low: ≤ 2
+          - Average: 3
+          - High: ≥ 4
  
      - Job Level Category: Groups job levels into distinct categories based on their numerical ranking:
-           - Entry: Level 1
-           - Mid: Level 2
-           - Senior: Level 3
+          - Entry: Level 1
+          - Mid: Level 2
+          - Senior: Level 3
 
  
      - Years Group: Groups employee servive year at the into ranges:
-           - 0–5
-           - 6–10
+          - 0–5
+          - 6–10
           - 11–15
           - 16–20 years
  
