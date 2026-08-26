@@ -62,33 +62,44 @@ Used for:
 This project is built using an employee performance dataset sourced from Kaggle, containing 5,000 employee records and 11 columns. The dataset provides a comprehensive look into workforce dynamics, covering key areas such as demographics, compensation, performance, promotions, attendance, and work arrangements.
 
  - Dataset Fields
+    
     - Employee ID: A unique identifier assigned to each employee.
+    
     - Age: The current age of the employee.
+    
     - Gender: The gender identity of the employee.
+    
     - Department: The organizational department the employee belongs to.
+    
     - Job Level: The employee's current role hierarchy or tier.
+    
     - Salary: The compensation or pay rate for the employee.
+    
     - Years at Company: The total duration of time the employee has spent with the organization.
+    
     - Performance Score: The evaluated metric representing the employee's work output and effectiveness.
+    
     - Promotion Date: The historical date associated with the employee's last promotion.
+    
     - Absence Days: The total number of days the employee was absent from work.
+    
     - Work Mode: The employee's designated work arrangement (e.g., remote, hybrid, or on-site).
 
 
  - Ingestion
-The employee dataset was imported into Power BI to serve as the foundation for data transformation, analysis, and dashboard development. Before building the final analytical model, the raw data underwent a thorough review and initial profiling process using Power Query.
+      - The employee dataset was imported into Power BI to serve as the foundation for data transformation, analysis, and dashboard development. Before building the final analytical model, the raw data underwent a thorough review and initial profiling process using Power Query.
 
  - Cleaning
-The data was imported into Power Query to make sure there were no errors. I checked the column quality, making sure that the data types were correct. I checked for missing values, fixed the text to make sure the fields were written correctly, checked for dates to make sure the formats were right, and reviewed the structure to make sure all fields were set up properly.
+      - The data was imported into Power Query to make sure there were no errors. I checked the column quality, making sure that the data types were correct. I checked for missing values, fixed the text to make sure the fields were written correctly, checked for dates to make sure the formats were right, and reviewed the structure to make sure all fields were set up properly.
 
  - Transformation
-The data was transformed to support workforce analysis by creating new groups and categories. I created age groups, performance categories, job-level categories, and years-at-company groups. I also extracted the promotion year from the promotion dates and renamed Work Location to Work Mode for clearer terminology. Specifically, performance scores were grouped into Low (Score ≤ 2), Average (Score = 3), and High (Score ≥ 4), job levels were grouped into Entry, Mid, and Senior, and years at the company were grouped into ranges from 0 to 20 years.
+      - The data was transformed to support workforce analysis by creating new groups and categories. I created age groups, performance categories, job-level categories, and years-at-company groups. I also extracted the promotion year from the promotion dates and renamed Work Location to Work Mode for clearer terminology. Specifically, performance scores were grouped into Low (Score ≤ 2), Average (Score = 3), and High (Score ≥ 4), job levels were grouped into Entry, Mid, and Senior, and years at the company were grouped into ranges from 0 to 20 years.
  
  - Analysis
-The analysis focused on exploring employee performance, compensation, attendance, promotions, and overall workforce characteristics. I looked closely at the distribution of performance, salary by performance category, performance across different work modes and departments, and employee absence patterns by department. I also examined promotion patterns by age group and year, along with workforce characteristics like age groups, job levels, tenure groups, and gender and department breakdowns.
+       - The analysis focused on exploring employee performance, compensation, attendance, promotions, and overall workforce characteristics. I looked closely at the distribution of performance, salary by performance category, performance across different work modes and departments, and employee absence patterns by department. I also examined promotion patterns by age group and year, along with workforce characteristics like age groups, job levels, tenure groups, and gender and department breakdowns.
 
  - Output
-The final output was an interactive Power BI dashboard consisting of three pages. The first page was an Attendance Overview focusing on absence patterns, the second was a Performance and Pay Overview focusing on performance, salary, departments, and work modes, and the third was an Demographics and Career Growth page focusing on age groups, promotions, and career progression. The dashboard also includes interactive filters for gender, department, and work mode.
+       - The final output was an interactive Power BI dashboard consisting of three pages. The first page was an Attendance Overview focusing on absence patterns, the second was a Performance and Pay Overview focusing on performance, salary, departments, and work modes, and the third was an Demographics and Career Growth page focusing on age groups, promotions, and career progression. The dashboard also includes interactive filters for gender, department, and work mode.
 
 
 ### Key Metrics
@@ -98,4 +109,70 @@ The final output was an interactive Power BI dashboard consisting of three pages
  - Average Performance Score — Measures the average employee performance score.
  - Average Absence Days — Measures the average number of absence days.
 
+
+### Data Cleaning and Transformation
+ - Column Review 
+The dataset was reviewed to understand the structure and relevance of each field before analysis.
+ 
+ - The original dataset contained 11 columns:
+Employee ID,
+Age,
+Gender,
+Department,
+Job Level,
+Salary,
+Years at Company,
+Performance Score,
+Promotion Date,
+Absence Days,
+Work Location,
+The Work Location field was later renamed Work Mode.
+ 
+
+ - Renamed Columns
+     - Work Location to Work Mode
+The field originally identified as Work Location was renamed to Work Mode to provide clearer terminology for the employee work arrangement categories.
+
+ - Handled Missing Values
+       - The dataset was reviewed for missing values during the Power Query data quality process.
+        - The data was checked to make sure there were no missing records affecting the analysis.
+ 
+ - Duplicate Check
+A data quality review was performed as part of the preparation process.
+The dataset was checked for duplicate entries to ensure data integrity.
+ 
+ - Data Type Corrections
+      - Data types were reviewed during the Power Query preparation process to ensure correct formatting.
+The project specifically required validation of fields such as:
+ Promotion Date,
+ Age,
+ Salary,
+ Years at Company,
+ Performance Score,
+ Absence Days, 
+ Invalid Values,
+ The dataset was reviewed for data quality and consistency issues.
+ Text consistency and promotion date consistency were specifically reviewed during the preparation process to ensure all fields were written and formatted correctly.
+ 
+ - Calculated Columns and Analytical Fields
+The following analytical fields were created to support the dashboard:
+ 
+     - Performance Category: Classifies employees based on Performance Score:
+           - Low: ≤ 2
+           - Average: 3
+           - High: ≥ 4
+ 
+     - Job Level Category: Groups job levels into distinct categories based on their numerical ranking:
+           - Entry: Level 1
+           - Mid: Level 2
+           - Senior: Level 3
+
+ 
+     - Years Group: Groups employee servive year at the into ranges:
+           - 0–5
+           - 6–10
+          - 11–15
+          - 16–20 years
+ 
+     - Promotion Year: Extracts the year from Promotion Date to support analysis of promotion trends over time.
 
