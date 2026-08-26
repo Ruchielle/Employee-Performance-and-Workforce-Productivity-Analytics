@@ -110,6 +110,39 @@ Used for:
  - Average Absence Days — Measures the average number of absence days.
 
 
+
+### Exploratory Data Analysis
+The exploratory analysis was structured around key business questions related to workforce performance, productivity, and career growth.
+ - Workforce Composition
+      - How many employees are represented in the dataset?
+      - How is the workforce distributed across departments?
+      - How is the workforce distributed by gender?
+      - How are employees distributed across job levels?
+      - How does employee tenure vary across the workforce?
+
+ - Employee Performance
+      - How are employees distributed across performance categories?
+      - What proportion of employees fall into Low, Average, and High performance categories?
+      - How does average performance vary across departments?
+      - How does average performance vary across work modes?
+
+ - Performance and Compensation
+      - How does average salary vary across performance categories?
+      - Are salary patterns different across Low, Average, and High-performing employees?
+      - How does salary vary across employee performance groups?
+
+ - Attendance
+      - How many absence days are recorded across the workforce?
+      - How does average absence vary by department?
+      - Which departments show differences in average absence days?
+
+ - Career Growth and Promotions
+      - How many employees have recorded promotions?
+      - How does promotion activity vary across age groups?
+      - How have promotions changed over time?
+      - Which age groups show different promotion patterns?
+
+
 ### Data Cleaning and Transformation
  - Column Review 
     - The dataset was reviewed to understand the structure and relevance of each field before analysis.
@@ -270,3 +303,49 @@ The following analytical fields were created to support the dashboard:
       - Instead of using lifetime promotions, the analysis was refined to focus on promotions in 2024, the most recent complete year in the dataset.
       - The 50+ age group recorded the highest number of promotions with 294, while the 20–29 group recorded the lowest with 195.
       - Insight: This provided a more meaningful comparison than simply counting all employees with a promotion date.
+
+
+### Recommendations
+ 
+ - Review the Compensation Structure
+      - HR should review whether salary increases and rewards are sufficiently connected to performance, job level, experience, and career progression.
+      - Reason: The current data shows very little difference in average salary across these groups.
+ 
+ - Review the Performance Rating Process
+      - HR could review the performance review process and provide clearer guidance to managers.
+      - Reason: The large number of High and Low ratings compared with Average ratings may indicate that managers are not using the full rating scale consistently.
+
+ - Strengthen Succession Planning
+      - HR could identify high-potential employees and create development plans for future leadership positions.
+      - Reason: Engineering should receive special attention because of their relatively smaller Senior-level workforce.
+
+ - Use Better Promotion Metrics
+      - Future HR reports should use year-specific promotion counts or promotion rates instead of lifetime promotion counts when comparing employee groups.
+      - Reason: This produces fairer and more accurate comparisons between groups of different sizes.
+
+ - Investigate Marketing Performance
+      - HR could investigate whether training, workload, management practices, or other workplace factors may be contributing to lower scores.
+      - Reason: Marketing recorded the lowest average performance score.
+
+
+### Assumptions
+
+ - Performance Score: Values were classified using the established thresholds: Low (\le 2), Average (3), and High (\ge 4).
+ - Job Levels: Grouped into Entry, Mid, and Senior categories (Levels 1, 2, and 3 respectively).
+ - Years at Company: Grouped into 0\text{--}5, 6\text{--}10, 11\text{--}15, and 16\text{--}20 years.
+ - Promotion Year: Derived directly from the Promotion Date.
+ - Work Mode: The original Work Location field was renamed to Work Mode.
+ - Scope: The analysis is descriptive and strictly reflects the information contained in the dataset. No additional assumptions were added where the project documentation did not establish them.
+
+
+### Limitations
+ 
+ - Dataset Scope: The analysis is based on 5,000 employee records and therefore reflects only the employees represented within this specific dataset.
+ - Descriptive Analysis: The dashboard identifies patterns and relationships within the available employee data but does not establish causation (for example, differences in salary across work modes do not demonstrate that work mode causes differences in salary).
+ - Limited Context: While the dataset covers performance, salary, attendance, promotions, demographics, and employment info, other broader organizational factors that may influence employee outcomes were not included.
+ - Promotion Analysis: Promotion patterns are based strictly on the recorded promotion information available in the dataset.
+ - Missing Data Documentation: The exact number of missing values, duplicate records, and specific missing-value treatments were not retained in the available project documentation, which should be verified directly from the final Power BI model if needed.
+
+
+
+### Authour 
