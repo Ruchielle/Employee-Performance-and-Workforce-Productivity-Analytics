@@ -115,7 +115,7 @@ This project is built using an employee performance dataset sourced from Kaggle,
 The dataset was reviewed to understand the structure and relevance of each field before analysis.
  
  - The original dataset contained 11 columns:
-Employee ID,
+    - Employee ID,
 Age,
 Gender,
 Department,
@@ -134,15 +134,15 @@ The Work Location field was later renamed Work Mode.
 The field originally identified as Work Location was renamed to Work Mode to provide clearer terminology for the employee work arrangement categories.
 
  - Handled Missing Values
-       - The dataset was reviewed for missing values during the Power Query data quality process.
-        - The data was checked to make sure there were no missing records affecting the analysis.
+     - The dataset was reviewed for missing values during the Power Query data quality process.
+     - The data was checked to make sure there were no missing records affecting the analysis.
  
  - Duplicate Check
-A data quality review was performed as part of the preparation process.
+     - A data quality review was performed as part of the preparation process.
 The dataset was checked for duplicate entries to ensure data integrity.
  
  - Data Type Corrections
-      - Data types were reviewed during the Power Query preparation process to ensure correct formatting.
+     - Data types were reviewed during the Power Query preparation process to ensure correct formatting.
 The project specifically required validation of fields such as:
  Promotion Date,
  Age,
