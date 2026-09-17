@@ -1,12 +1,5 @@
 ## Employee Performance and Workforce Productivity Analytics
 
-
-
-![image atl](81f2bc6b-6927-460d-9045-486f92892fec.jpeg)
-![image atl](77c1e1a6-45ff-4399-9ebc-dc690fc2670d.jpeg)
-![image atl](c1b77781-28b1-4466-89fe-fcfbda954129.jpeg)
-
-
 ## Table of Content 
  - [Projects Overview](#project-overview)
  - [Project Objective](#project-objective)
